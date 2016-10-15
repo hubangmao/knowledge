@@ -1,0 +1,14 @@
+1.迅雷下载Ndk开发工具包下载
+https://dl.google.com/android/repository/android-ndk-r12b-windows-x86_64.zip
+2.build.gradle
+ 添加
+defaultConfig {
+        ndk {
+            moduleName "NDKNAME"
+ } }
+ 3.gradle.properties
+ 添加
+ android.useDeprecatedNdk=true
+ 
+ 生成头文件 .h //切换到java目录                                 包名.类名
+ TestProject\NdkTest\src\main\java> javah -jni cn.hbm.ndktest.MyNDK

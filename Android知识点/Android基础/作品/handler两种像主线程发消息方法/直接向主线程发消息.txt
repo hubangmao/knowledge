@@ -1,0 +1,11 @@
+﻿ runOnUiThread(new Runnable() {
+                    @Override
+                    public void run() {
+                        if (user.getResult().equals("ok")) {
+                            Toast.makeText(MainActivity.this, "登陆成功", Toast.LENGTH_LONG).show();
+                            Log.i("main", user.toString());
+                        } else {
+                            Toast.makeText(MainActivity.this, "登陆失败", Toast.LENGTH_LONG).show();
+                        }
+                    }
+                });

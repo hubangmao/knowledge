@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <shape android:shape="rectangle">
+            <gradient
+                android:endColor="#fff"
+                android:startColor="#fff" />
+
+
+        </shape>
+    </item>
+    <!-- 渐变颜色-->
+    <item android:id="@+id/progress">
+        <clip>
+            <shape android:shape="rectangle">
+                <gradient
+
+                    android:angle="45"
+                    android:endColor="#FFC62F8A"
+                    android:startColor="#5056da" />
+                <corners android:radius="5sp" />
+            </shape>
+        </clip>
+    </item>
+</layer-list>

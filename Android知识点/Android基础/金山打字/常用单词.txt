@@ -1,0 +1,42 @@
+input输入
+account账号
+password密码
+registerd注册login登陆
+onClick点击
+request请求
+year年month月day日
+time时间
+key按键
+Return返回
+home
+menu菜单
+method方法
+Monday星期一
+Tuesday星期二
+Wednesday星期三
+Thursday 星期四
+Friday星期五
+Saturday星期六
+Sunday星期日
+Janurary  一月
+February 二
+March 三
+April 四
+May 五
+June 六
+July 七
+August 八
+September 九
+October 十
+November 十一
+December 十二
+colour颜色
+blue蓝色
+green绿色
+purple紫色
+yellow黄色
+red红色
+操作系统
+Windows
+Linux
+Mac

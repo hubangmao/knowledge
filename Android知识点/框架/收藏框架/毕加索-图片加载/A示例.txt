@@ -1,0 +1,1 @@
+ Picasso.with(context).load(url).placeholder(R.drawable.default_avatar).into(imageView);

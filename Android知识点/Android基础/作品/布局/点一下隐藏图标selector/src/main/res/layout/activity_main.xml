@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!-- 底部菜单栏-->
+    <LinearLayout
+        android:id="@+id/llMenu"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:background="#36f"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/menu_item_style"
+            android:drawableTop="@drawable/selector_new_goods"
+            android:onClick="on"
+            android:text="新品" />
+
+        <TextView
+            style="@style/menu_item_style"
+            android:drawableTop="@drawable/selector_new_goods"
+            android:onClick="on1"
+            android:text="精品" />
+
+        <TextView
+            android:id="@+id/h1"
+            style="@style/menu_item_style"
+            android:drawableTop="@drawable/selector_new_goods"
+            android:text="分类" />
+
+        <TextView
+            style="@style/menu_item_style"
+            android:drawableTop="@drawable/selector_new_goods"
+            android:text="收藏" />
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:drawableTop="@drawable/selector_new_goods"
+                android:text="购物车"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:background="#f60"
+                android:text="10"
+                android:textColor="#000" />
+        </RelativeLayout>
+
+        <TextView
+            android:drawableTop="@drawable/selector_new_goods"
+            style="@style/menu_item_style"
+            android:text="我" />
+    </LinearLayout>
+</RelativeLayout>

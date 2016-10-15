@@ -1,0 +1,86 @@
+一个栈中的 任务 放有多个Activity 他们共同完成一个任务
+http://m.blog.csdn.net/blog/index?username=guzuoi
+"http://10.0.2.2/jobs.json";
+
+===================安卓权限=======================
+网络权限
+<uses-permission android:name="android.permission.INTERNET" />
+SD卡读写权限
+   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+	联系人读写权限
+<uses-permission android:name="android.permission.READ_CONTACTS" />
+ <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+打电话+发短信
+ <uses-permission android:name="android.permission.CALL_PHONE" />
+   <uses-permission android:name="android.permission.SEND_SMS" />
+	compile 'com.android.support:recyclerview-v7:24.0.0'
+	 compile 'com.android.support:support-v4:19.0.0'
+	
+git init   .git文件夹
+添加忽略文件至 工程目录下
+git add .  
+git  commit -m "firster commit"  本地库
+git remote add origin https://github.com/hubangmao/MySuperWechat.git
+git  push -u  origin master  提交数据
+
+搭建Git服务器
+http://clawpo.github.io/2016/09/01/2016/git_service.html
+
+
+git pull 下载到本地仓库
+git status  查看 状态
+
+git branch 
+
+git  checkout   -b fulicenter
+git branch --all 切换 分支
+
+git生成秘钥
+ssh-keygen -t rsa -c  "hubangmao@qq.cn"
+
+ <intent-filter>
+<action android:name="android.intent.action.MAIN" />//程序入口//可做隐式意图启动Activity
+																	  category类别——顶级列表类别还有HOME等
+<category android:name="android.intent.category.LAUNCHER" />//LAUNCHER顶级列表桌面图标
+           点击顶级列表进入程序入口 
+	 </intent-filter>
+
+  主题颜色介绍
+ <style name="AppBaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- toolbar（actionbar）颜色 -->
+        <item name="colorPrimary">#4876FF</item>
+        <!-- 状态栏颜色 -->
+        <item name="colorPrimaryDark">#3A5FCD</item>
+        <!-- 窗口的背景颜色 -->
+        <item name="android:windowBackground">@android:color/white</item>
+    </style>
+
+	
+API等级 http://baike.baidu.com/link?url=VkXR4X2aKTWL5n-injG6vGZ1ZFNlb2vuwgyPMktXyl1F82jCQ83_itNdylDDNkSK6x7GtK7zYqj4MdGMbuZGY_
+随着版本的更迭，应用程序编程接口（API）等级不断发生。下面将目前为止所有API等级罗列出来，并与Android各版本一一对应。
+API等级1：Android 1.0
+API等级2：Android 1.1 Petit Four									花色小蛋糕 
+API等级3：Android 1.5 Cupcake									纸杯蛋挞
+API等级4：Android 1.6 Donut										甜甜圈
+API等级5：Android 2.0 Éclair
+API等级6：Android 2.0.1 Éclair										闪电泡芙
+API等级7：Android 2.1 Éclair
+API等级8：Android 2.2 - 2.2.3 Froyo             			     冻酸奶 
+API等级9：Android 2.3 - 2.3.2 Gingerbread 
+API等级10：Android 2.3.3-2.3.7 Gingerbread 			 姜饼
+API等级11：Android 3.0 Honeycomb
+API等级12：Android 3.1 Honeycomb 							 蜂巢
+API等级13：Android 3.2 Honeycomb
+
+API等级14：Android 4.0 - 4.0.2 Ice Cream Sandwich   冰淇淋三明治
+API等级15：Android 4.0.3 - 4.0.4 Ice Cream Sandwich
+API等级16：Android 4.1 Jelly Bean
+API等级17：Android 4.2 Jelly Bean  								 果冻豆 
+API等级18：Android 4.3 Jelly Bean
+API等级19：Android 4.4 KitKat 										 巧克力棒
+API等级20：Android 4.4 W
+API等级21：Android 5.0 Lollipop
+API等级22：Android 5.1 Lollipop 									 棒棒糖
+API等级23：Android 6.0 Marshmallow   						 棉花糖
+API等级24：Android 7.0 Nougat 							 		 牛轧糖

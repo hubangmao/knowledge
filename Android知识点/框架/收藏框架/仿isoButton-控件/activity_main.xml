@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:toggle="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <cn.ucai.test6.togglebutton.ToggleButton
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        toggle:tbBorderWidth="2dp"
+        toggle:tbOffBorderColor="#000"
+        toggle:tbOffColor="#e81616"
+        toggle:tbOnColor="#131ef9"
+        toggle:tbSpotColor="#00f" />
+
+    <cn.ucai.test6.togglebutton.ToggleButton
+        android:id="@+id/togleButton"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp" />
+
+    <cn.ucai.test6.togglebutton.ToggleButton
+        android:layout_width="160dp"
+        android:layout_height="30dp"
+        android:layout_centerHorizontal="true"
+        toggle:tbBorderWidth="2dp"
+        toggle:tbOffBorderColor="#5b8fee"
+        toggle:tbOffColor="#ddd"
+        toggle:tbOnColor="#f00"
+        toggle:tbSpotColor="#0af121" />
+
+
+</RelativeLayout>

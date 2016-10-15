@@ -1,0 +1,77 @@
+FileInputStream openFileInput
+FileOutputStream openFileOutput内部的路径files
+
+ 获取sd卡的Andoid/data/cn.ucai.day06_13/files
+  File dir = getExternalFilesDir(Environment.DIRECTORY_DOWNLOADS);
+  
+File getExternalStorageDirectory 返回 SD卡根目录
+File getExternalStoragePubicDirectory (DIRECTORY_MUSIC)指定文件公用目录
+布局容器
+Activity管理当前屏幕
+drawable存放资源
+RelativeLayout相对
+LinearLayout线性
+FrameLayout帧布局
+TableLayout表格
+GridLayout网格布局
+AbsoluteLayout绝对布局
+HorizontalScrollView水平滚动
+ScrollView垂直滚动文
+控件
+SeekBar拖动条
+RatingBar评分星
+ProgressBar进度条
+Spinner控件下拉列表
+CheckBox复选框
+RadioGroup容器
+RadioButton互斥按钮
+shape几何图形
+include插入定义布局
+Theme主题
+TextView文本
+EditText可编辑
+ImageView图片
+VideoView视频
+ListView垂直列表
+GridView网格
+关键字
+八种数据类型
+整数
+byte8位-128~127
+short16位三万32767 
+int32位最常用21亿 
+long64位2的63次方
+小数
+float32 位后缀 F 或 f，1 位符号位，8 位指数，23 位有效尾数。 
+double64 位最常用，后缀 D 或 d，1 位符号位，11 位指数，52 位有效尾
+字符类型符类型char
+布尔boolean true真false假
+包装类
+Byte
+Short
+Integer
+Long
+Float小数后7位
+Double后15位
+Character
+Boolean
+修饰符
+public 公共
+static静态
+private私有
+Android系统架构介绍
+应用程序层
+应用程序框架层
+系统库和Android运行时
+Linux内核
+setOnClickListener单击监听
+setOnLongClickListener长按监听
+finish()关闭当前的视图
+setError（）设置错误信息
+setImageResource(id);设置图片
+BaseAdapter接口屏幕适配器
+ListView布局文件divider可以设置分隔条的颜色dividerHeight 
+设置分隔条高度entries设置类容 仅数组
+mSp.getSelectedItem().toString()得到显示列表框已选中的列表项类容
+isChecked方法if语句判断如果被选中就拿到里面类容
+TextUtils.isEmpty(pass)检查输入类容是否为空

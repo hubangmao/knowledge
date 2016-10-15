@@ -1,0 +1,6 @@
+http://jakewharton.github.io/butterknife/
+
+@OnClick({ R.id.rl_hairStryleDetails_Comment, R.id.btn_hairStyleDetailappointment,
+			R.id.iv_hairStryleDetails_right_image, R.id.iv_hairStryleDetails_back, R.id.iv_HairStyleDetail_photo })
+	public void methodClick(View v) {
+		switch (v.getId()) {
