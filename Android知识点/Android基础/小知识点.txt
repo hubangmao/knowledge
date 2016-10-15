@@ -30,11 +30,11 @@ http://clawpo.github.io/2016/09/01/2016/git_service.html
 
 git pull 下载到本地仓库
 git status  查看 状态
-
-git branch 
-
-git  checkout   -b fulicenter
-git branch --all 切换 分支
+git branch 列出所有分支
+git branch mybranch  创建分支
+git checkout mybranch 切换分支
+git checkout   -b fulicenter 创建并切换
+git merge mybranch 将指定的"mybranch"合并到当前分支
 
 git生成秘钥
 ssh-keygen -t rsa -c  "hubangmao@qq.cn"
