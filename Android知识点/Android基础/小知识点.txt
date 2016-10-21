@@ -1,4 +1,4 @@
-一个栈中的 任务 放有多个Activity 他们共同完成一个任务
+﻿一个栈中的 任务 放有多个Activity 他们共同完成一个任务
 http://m.blog.csdn.net/blog/index?username=guzuoi
 "http://10.0.2.2/jobs.json";
 
@@ -58,6 +58,13 @@ ssh-keygen -t rsa -c  "hubangmao@qq.cn"
 隐藏状态栏 	
 getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
 WindowManager.LayoutParams.FLAG_FULLSCREEN);
+18.控件点击产生涟漪效果
+通过前景设置android:clickable="true"
+android:foreground="?android:attr/selectableItemBackground"
+通过背景设置 
+android:background="?android:attr/selectableItemBackground"
+波纹超出边界android:background="?android:attr/selectableItemBackgroundBorderless"                               
+硬件加速 android:hardwareAccelerated="true"
 	
 API等级 http://baike.baidu.com/link?url=VkXR4X2aKTWL5n-injG6vGZ1ZFNlb2vuwgyPMktXyl1F82jCQ83_itNdylDDNkSK6x7GtK7zYqj4MdGMbuZGY_
 随着版本的更迭，应用程序编程接口（API）等级不断发生。下面将目前为止所有API等级罗列出来，并与Android各版本一一对应。
