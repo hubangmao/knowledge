@@ -1,0 +1,12 @@
+使用fragment+viewpage时会发现设置setOffscreenPageLimit(0)不预加载页面不管用，可以用下边的方法代替，下边的方法是在子页面（也就是fragment中）复写下边的方法，根据fragment是否可见来判断是否是当前页面，然后执行网络加载数据
+
+
+    @Override
+    public void setUserVisibleHint(boolean isVisibleToUser) {
+        super.setUserVisibleHint(isVisibleToUser);
+        if (isVisibleToUser) {
+            //fragment可见时执行加载数据或者进度条等
+        } else {
+            //不可见时不执行操作
+        }
+    }
