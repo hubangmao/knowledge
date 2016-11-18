@@ -1,0 +1,23 @@
+public HelloServlet() {
+		ServerSocket socket;
+		try {
+			socket = new ServerSocket(9999);
+			Socket accept = socket.accept();
+			OutputStream os = accept.getOutputStream();
+			os.write(11112);
+			os.flush();
+			socket.close();
+			os.close();
+
+			Socket socket2 = new Socket("192.168.0.102", 9999);
+			BufferedReader br = new BufferedReader(new InputStreamReader(socket2.getInputStream()));
+			String line = br.readLine();
+			System.out.println(line);
+			socket2.close();
+			br.close();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+	}
